@@ -1,0 +1,2 @@
+turtle_catch_up
+-DCATKIN_DEVEL_PREFIX=/home/gudmian/ros/ROS/lab1/devel -DCMAKE_INSTALL_PREFIX=/home/gudmian/ros/ROS/lab1/install -G Unix Makefiles

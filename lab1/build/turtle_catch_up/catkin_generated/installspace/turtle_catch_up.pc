@@ -1,0 +1,8 @@
+prefix=/home/gudmian/ros/ROS/lab1/install
+
+Name: turtle_catch_up
+Description: Description of turtle_catch_up
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

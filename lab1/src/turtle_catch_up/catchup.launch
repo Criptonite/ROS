@@ -1,0 +1,15 @@
+<launch>
+    <arg name="spawned_name" default="donatello"/>
+    
+    <node name="turtlesim_node" pkg="turtlesim" type="turtlesim_node"/>
+    
+    <node name="turtle_teleop_key" pkg="turtlesim" type="turtle_teleop_key"/>
+    
+    <node name="turtle_spawner" pkg="turtle_catch_up" type="spawn.py">
+        <param name="spawned_name" default="$(arg spawned_name)"/>
+    </node>
+
+    <node name="turtle_catchuper" pkg="turtle_catch_up" type="catchup.py">
+        <param name="spawned_name" default="$(arg spawned_name)"/>
+    </node>
+</launch>

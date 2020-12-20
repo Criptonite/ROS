@@ -65,4 +65,5 @@ rospy.spin()
 ```
 #### Результаты
 Результат работы:
+**Гифка сильно зависает, необходимо смотреть около 2 минут, чтобы увидеть весь процесс**
 ![](https://github.com/Criptonite/ROS/blob/main/lab1/src/turtle_catch_up/images/turtle_catcher.gif)
